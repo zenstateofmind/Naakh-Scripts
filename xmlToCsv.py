@@ -198,4 +198,5 @@ class XmlToCsvConverter():
 
 if __name__ == '__main__':
     converter = XmlToCsvConverter()
+    # Add the xml file right here
     converter.convertToCsv('/Users/nikhiljoshi/Documents/Naakh/strings_sample.xml')
