@@ -131,7 +131,7 @@ class XmlToCsvConverter():
 
     def _needsTranslation(self, resourceAttributes):
         """
-        Takes a resource tag and returns:
+        Takes an attribute resource tag (dict object) and returns:
             true if the phrase in this tag needs translation
             false if the phrase in this tag doesnt need translation
         """
